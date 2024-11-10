@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+
+
+int soma(int n){
+
+  int soma = 0;
+
+  for(int i = 1; i <= n ; i++){
+
+    soma += i;
+
+  }
+
+   return soma;
+
+ }
+
+
+
+int main()
+
+{
+
+  int n;
+
+  printf("Digite numero:");
+
+  scanf("%d", &n);
+
+  int resultado = soma(n);
+
+  printf("%d", resultado);
+
+   
+
+  return 0;
+
+}
